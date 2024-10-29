@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>个人通讯系统</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>个人通讯系统</h1>
+    <div id="contact-form">
+        <input type="text" id="name" placeholder="请输入姓名">
+        <input type="text" id="address" placeholder="请输入地址">
+        <input type="text" id="phone" placeholder="请输入电话号码">
+        <button onclick="addContact()">添加联系人</button>
+    </div>
+    <div id="contact-list">
+        <h2>联系人列表</h2>
+        <table id="contacts" border="1"></table>
+    </div>
+    <script src="script.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+
+</html>
